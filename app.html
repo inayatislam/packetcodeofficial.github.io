@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <header>
+                <nav>
+                    <ul id="navbar">
+                        <li><a class="page-active" href="index.html">Home</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="qualifications.html">Qualifications</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+<h5> MENU </h5>
+            <div class="myInfo">
+<table>
+<tr>
+<th>  DRINKS </th>
+<th>  PRICE </th>
+
+
+
+</tr>
+       <tr>
+       <td> SMALL DRINKS  </td>
+             <td> £2.45  </td>
+                 </tr>
+<tr>
+       <td> MEDIUM DRINKS   </td>
+             <td> £2.65  </td>
+                 </tr>
+<tr>
+       <td> LARGE DRINKS  </td>
+             <td> £2.85  </td>
+                 </tr>
+<tr>
+       <td> EXTRA CREAM  </td>
+             <td> £0.50  </td>
+                 </tr>
+<tr>
+       <td> SYRUP  </td>
+             <td> £0.25 PER SHOT  </td>
+                 </tr>
+</table>
+</div>
+<h5> CHOICES | MILK TYPE | EXTRAS </h5>
+            <div class="myInfo">
+          <table>
+
+<tr>
+<th>   CHOICES  </th>
+<th>  MILK TYPE  </th>
+<th>  EXTRAS  </th>
+</tr>
+
+<tr>
+       <td> LATTE  </td>
+<td> WHOLE  </td>
+<td> SUGAR  </td>
+</tr>
+
+<tr>
+       <td> CAPPUCCINO   </td>
+<td> SKIMMED  </td>
+<td> CREAM  </td>
+</tr>
+<tr>
+       <td> FLAT WHITE  </td>
+<td> COCONUT OR SOYA  </td>
+<td> SHOTS OF SYRUP  </td>
+</tr>
+<tr>
+<td> ESPRESSO  </td>
+</tr>
+
+<tr>
+<td> AMERICANO  </td>
+</tr>
+<tr>
+<td> ESPRESSO  </td>
+</tr>
+
+
+ </table>
+
+
+             
+          
+
+
+
+
+
+
+
+
+
+</div>
+                <div class="order-1">
+                    <h1 class="subheading">Place Order</h1>
+                    <p id="layout-1">
+                        <label for="size">Drink Size</label>
+                        <select id="size" name="dSize">
+                            <option value="1">Small</option>
+                            <option value="2">Medium</option>
+                            <option value="3">Large</option>
+                        </select>
+                        <br>
+                        <label for="size">Drink Name</label>
+                        <select id="name" name="dname">
+                            <option value="1">Latte</option>
+                            <option value="2">Cappucino</option>
+                            <option value="3">Espresso</option>
+                            <option value="4">Americano</option>
+                            <option value="5">Flat White</option>
+                        </select>
+                        <br>
+                        <label for="extras">Extras:</label>
+                        <select id="extras" name="extraItems">
+                            <option value="1">Extra Cream</option>
+                            <option value="2">Extra Syrup</option>
+                            <option value="3">None</option>
+                        </select>
+                        <br>
+                        <br>
+                       <button class="btns"  onclick="AddToOrder()">add to basket</button>
+                    </p>
+                </div>
+                
+                <div class="currentOrder">
+                    <h5>Your Order</h5>
+                    <div id="cart">
+                    </div>
+            </div>
+        
+        <footer>
+            <h1>Inayat Reus</h1>
+        </footer>
+        <script src="javascript.js"></script>
+    </body>
+</html>

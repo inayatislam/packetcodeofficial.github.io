@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(200,200,200);
+}
+.main{
+    background: black;
+    padding: 2%;
+    overflow: hidden;
+    text-align: center
+}
+.main a{
+    text-decoration: none;
+    color: white;
+    font-size: 30pxpx;
+    margin: 2%;
+    display: inherit
+}
+.main a:hover{
+    background: white;
+    color: black;
+}
+
+.main ul{
+    list-style: none;
+}
+
+#main-2{
+    margin-top: 2%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    background: lightgrey;
+    overflow: hidden;
+}
+h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    background: black;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.myInfo{
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: lightgrey;
+}
+.subheading{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.table{
+    width: 1000px;
+
+}
+.table th, td {
+border: 1px solid #000;
+}
+tr:nth-child(even) {
+    background-color: #ddd
+} 
+tr:nth-child(odd) {
+    background-color: #fff
+}
+table, tr, th, td {
+    width: 1300px;
+    height: 30pxpx;
+    padding:20px;
+color:black;
+border :1px solid black;
+border-collapse: collapse;
+font-size: 18px ;
+font-family: Arial;
+background:linear-gradient(top, #3c3c3c 0% #222222 100%);
+background: -webkit-linear-gradient(top, #3c3c3c 0% #222222 100%);
+}
+#layout-1{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background: rgb(100,100,100);
+    padding: 2%;
+}
+label{
+    float: left;
+}
+select{
+    float: right;
+    clear: right;
+    width: 150px;
+}
+footer{
+position: absolute;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+}
