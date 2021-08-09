@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DETAILS</title>
+    <link rel="stylesheet" type="text/css" href="img.css">
+</head>
+<header>
+    <h1>WILSONZOO<span>DRINKSHOP</span></h1>
+<nav>
+    <ul>
+    <nav>
+        <ul id="navbar">
+        
+           <h3>WILSON ZOO DRINK SHOP</h3>
+           
+        </ul>
+    </nav>
+    </header>
+    <body>
+            <div class="row">
+                <div class="col-75">
+                    <div class="container">
+                        <form id="validate" action="/action_page.php">
+                            <div class="row">
+                                <div class="col-50">
+                                    <h3>Billing Address</h3>
+                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                    <input type="text" id="fname" name="fullname" placeholder="Inayat Islam" required>
+                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="email" name="email" placeholder="inayatreus@gmail.com" required>
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                    <input type="text" id="adr" name="address" placeholder="6 Comet Avenue" required>
+                                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                                    <input type="text" id="city" name="city" placeholder="stoke on trent " required>
+            
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <label for="state">State</label>
+                                            <input type="text" id="state" name="state" placeholder="Birmingham"required>
+                                        </div>
+                                        <div class="col-50">
+                                            <label for="zip">Zip</label>
+                                            <input type="text" id="zip" name="Postcode" placeholder="ST5 9FB"required>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-50">
+                                    <h3>Checkout Form</h3>
+                                    <label for="fname">All cards accepted</label>
+                                    <div class="icon-container">
+                                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    </div>
+            
+                                    <label for="cname">Name on Card</label>
+                                    <input type="text" id="cname" name="cardname" placeholder="Inayat Islam"required>
+                                    <label for="ccnum">Credit card number</label>
+                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"required>
+                                    <label for="expmonth">Exp Month</label>
+                                    <input type="text" id="expmonth" name="expmonth" placeholder="September"required>
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <label for="expyear">Exp Year</label>
+                                            <input type="text" id="expyear" name="expyear" placeholder="2023"required>
+                                        </div>
+                                        <div class="col-50">
+                                            <label for="cvv">CVV</label>
+                                            <input type="text" id="cvv" name="cvC" placeholder="Last 3 digits behind card"required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>
+                            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                            </label>
+                            
+                            <div class="button">
+                                <li><a href="thanks.html">Contine To Checkout</a></li>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="col-25">
+                    <div class="container">
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- script validate js -->
+            <script>
+                $('#validate').validate({
+                    roles: {
+                        fullname: {
+                            required: true,
+                        },
+                        email: {
+                            required: true,
+                        },
+                        address: {
+                            required: true,
+                        },
+                        city: {
+                            required: true,
+                        },
+                        state: {
+                            required: true,
+                        },
+                        zip: {
+                            required: true,
+                        },
+                        cardname: {
+                            required: true,
+                        },
+                        cardnumber: {
+                            required: true,
+                        },
+                        expmonth: {
+                            required: true,
+                        },
+                        expyear: {
+                            required: true,
+                        },
+                        cvv: {
+                            required: true,
+                        },
+                       
+                    },
+                    messages: {
+                        fullname:"Full name*",
+                        email:"Email*",
+                        city:"City*",
+                        address:"Address*",
+                        state:"City*",
+                        zip:"Address*",
+                        cardname:"Card name*",
+                        cardnumber:"Card number*",
+                        expmonth:"Exp month*",
+                        expyear:"Exp year*",
+                        cvv:"CVV*",
+                    },
+                });
+            </script>
+            
+        <script src="javascript.js"></script>
+    </body>
+
+
+    <footer>
+        <p>
+            <h1>WILSON<span>ZOO</h1>
+           
+            
+        </p>
+    </footer>
+</html>
